@@ -22,8 +22,7 @@ function doWhileLoop(array) {
   do {
       console.log("array length = " + array.length)
     array.shift()
-        console.log("array length = " + array.length)
-  } while (array.length > 0 && maybeTrue(array))
+  } while (array.length < 1 && maybeTrue(array))
 return array
 }
 
