@@ -20,7 +20,7 @@ function whileLoop(number) {
 
 function doWhileLoop(array) {
   do {
-    array.unshift()
+    array.shift()
   } while (maybeTrue(array))
 return array
 }
