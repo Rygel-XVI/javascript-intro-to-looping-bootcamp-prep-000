@@ -10,10 +10,11 @@ function forLoop(array){
 return array
 }
 
-function whileLoop(var i) {
+function whileLoop(number) {
+  while (number)
   console.log("hi")
-  console.log(x--)
-  if (i === 0) {
+  console.log(number--)
+  if (number == 0) {
     return "done"
   }
 }
