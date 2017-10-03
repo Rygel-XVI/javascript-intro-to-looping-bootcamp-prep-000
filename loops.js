@@ -12,7 +12,6 @@ return array
 
 function whileLoop(number) {
   while (number)
-  console.log("hi")
   console.log(number--)
   if (number == 0) {
     return "done"
