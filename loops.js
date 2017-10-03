@@ -11,7 +11,7 @@ return array
 }
 
 
-function whileLoop(x > 0) {
+function whileLoop(x) {
   console.log(--x)
   if (x == 0) {
     return "done"
