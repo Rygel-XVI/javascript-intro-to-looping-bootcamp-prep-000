@@ -1,4 +1,4 @@
-function forLoop(array){
+function makeArray(array){
   for(var i = 0; i<25; i++) {
     if(i=1) {
       array.push(`I am 1 strong loop`)
