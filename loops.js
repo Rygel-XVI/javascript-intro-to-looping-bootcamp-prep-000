@@ -19,8 +19,8 @@ function whileLoop(number) {
 }
 
 function doWhileLoop(array) {
-  console.log("array length = " + array.length)
   do {
+      console.log("array length = " + array.length)
     array.shift()
   } while (array.length > 0 && maybeTrue(array))
 return array
