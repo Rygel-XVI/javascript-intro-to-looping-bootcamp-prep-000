@@ -17,3 +17,9 @@ function whileLoop(number) {
     return "done"
   }
 }
+
+function doWhileLoop(array) {
+  do {
+    array.unshift()
+  } while (maybeTrue(array))
+}
